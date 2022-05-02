@@ -13,8 +13,8 @@ body {
 
 img {
 	display: block;
-	width: 480px;
-	height: 480px;
+	width: 25rem;
+	height: 25rem;
 	margin: 2rem auto;
 }
 
@@ -49,4 +49,12 @@ button, a {
 	color: #f28e2a;
 	font-size: 1.5rem;
 	text-decoration: none;
+	padding: 1rem;
+}
+
+@media (max-width: 468px) {
+	img {
+		width: 15rem;
+		height: 15rem;
+	}
 }
